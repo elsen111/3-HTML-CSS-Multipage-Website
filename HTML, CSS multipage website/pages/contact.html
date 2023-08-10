@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Importing stylesheets -->
+        <link rel="stylesheet" href="../css/utils.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Linking tab-logo -->
+        <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+        <title> Cloud Hosting </title>
+    </head>
+
+    <body>
+        <!-- Start of Header Part -->
+        <header class="bg-transparent transition shadow">
+            <div class="container flex space-between">
+                <div id="logo">
+                    <a href="#" class="link text-uppercased text-white fw-700 flex">
+                        <img src="../images/icon.png" alt="logo image">
+                        <span class="transition"> host </span>
+                    </a>
+                </div>
+
+                <div id="menu-btn" class="bg-white" onclick="handleNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div id="top-nav" class="flex transition h-0"> 
+                    <ul class="list flex">
+                        <li><a href="home.html" class="link text-capitalized text-white fs-15 transition fw-300"> home </a></li>
+                        <li><a href="about.html" class="link text-capitalized text-white fs-15 transition fw-300"> about us </a></li>
+                        <li><a href="service.html" class="link text-capitalized text-white fs-15 transition fw-300"> our services </a></li>
+                        <li><a href="#" id="active-page" class="link text-capitalized text-white fs-15 transition fw-300"> contact us </a></li>
+                    </ul>
+
+                    <div class="flex">
+                        <a href="#" class="link btn navbar-btn text-uppercased text-white bg-transparent transition fw-400 letter-sp"> log in </a>
+                        <a href="#" class="link btn navbar-btn text-uppercased text-white bg-blue transition fw-400 letter-sp"> sign up </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+        
+
+        <!-- Start of Main Part -->
+        <main>
+            <section id="introduction" class="bg-img">
+                <div class="container flex flex-column">
+                    <h2 class="text-white text-capitalized fs-32 fw-700"> contact us </h1>
+                </div>
+            </section>
+
+            <section id="contact-section">
+                <div class="container p-0">
+                    <div class="row">
+                        <div id="contact-form" class="col-2 px-15">
+                            <form action="file.php" class="flex flex-column">
+                                <input type="text" name="name" id="name" placeholder="Your name" class="mb-30 border-gray border-8 letter-sp fs-14 text-gray px-20 fw-500">
+                                <input type="text" name="email" id="email" placeholder="Your email" class="mb-30 border-gray border-8 letter-sp fs-14 text-gray px-20 fw-500">
+                                <input type="text" name="subject" id="subject" placeholder="Subject" class="mb-30 border-gray border-8 letter-sp fs-14 text-gray px-20 fw-500">
+                                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your message" class="mb-30 border-gray border-8 letter-sp fs-14 text-gray p-20 fw-500"></textarea>
+                                <button type="submit" class="btn bg-blue text-white letter-sp fw-500 fs-15 transition"> send message </button>
+                            </form>
+                        </div>
+
+                        <div id="contact-content" class="col-2 px-15">
+                            <div class="flex flex-column">
+                                <h4 class="sm-title"> contact us </h4>
+                                <h2 class="lg-title"> Let's keep in touch </h2>
+                                <p class="para">
+                                    Quisque sagittis blandit sapien et elementum. Fusce pretium viverra consequat. Aliquam at feugiat mi. Pellentesque hendrerit, felis ac sodales commodo.
+                                </p>
+
+                                <div id="contact-links" class="row">
+                                    <div id="tel" class="flex col-2 mb-30">
+                                        <span class="icon bg-blue flex rounded"><i class="fa-solid fa-phone text-white fs-19"></i></span>
+                                        <a href="tel:+0100200560" class="link fs-14 text-darkGray letter-sp fw-600"> 010-020-0560 </a>
+                                    </div>
+
+                                    <div id="contcat" class="flex col-2 mb-30">
+                                        <span class="icon bg-blue flex rounded"><i class="fa-solid fa-envelope text-white fs-19"></i></span>
+                                        <a href="mailto: contact@company.com" class="link fs-14 text-darkGray letter-sp fw-600"> contact@company.com </a>
+                                    </div>
+
+                                    <div id="support" class="flex col-2 mb-30">
+                                        <span class="icon bg-blue flex rounded"><i class="fa-solid fa-life-ring text-white fs-19"></i></span>
+                                        <a href="mailto: support@company.com" class="link fs-14 text-darkGray letter-sp fw-600"> support@company.com </a>
+                                    </div>
+
+                                    <div id="web" class="flex col-2 mb-30">
+                                        <span class="icon bg-blue flex rounded"><i class="fa-solid fa-earth-americas text-white fs-19"></i></span>
+                                        <a href="mailto: www.company.com" class="link fs-14 text-darkGray letter-sp fw-600"> www.company.com </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47242.34294015246!2d49.92103199225889!3d40.383023188380974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1saz!2saz!4v1691359796790!5m2!1saz!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <section id="feedbacks" class="bg-gray">
+                <div class="container flex flex-column">
+                    <h4 class="sm-title"> testimonials </h4>
+                    <h2 class="lg-title"> What they say about us </h2>
+
+                    <div>
+                        <div id="carousel" class="flex transition">
+                            <div id="left" class="feedback "></div>
+    
+                            <div id="middle" class="feedback">
+                                <div class="flex flex-column px-15">
+                                    <div class="quote-icon bg-gradient rounded flex">
+                                        <i class="fa-solid fa-quote-right text-white fs-18"></i>
+                                    </div>
+        
+                                    <p class="feedback-text fs-19 text-gray fw-300 centered">
+                                        "Ut elementum a elit sed tristique. Pellentesque sed semper erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quam erat, rutrum ut malesuada."
+                                    </p>
+        
+                                    <h6 class="username text-capitalized fs-19 text-darkGray fw-700 letter-sp"> william smith </h6>
+                                    <h6 class="role sm-title fw-400"> new co-founder </h6>
+                                </div>
+                            </div>
+    
+                            <div id="right" class="feedback"></div>
+                        </div>
+                    </div>
+
+                    <div id="buttons">
+                        <span id="btn1" class="bg-blue transition rounded active-btn" onclick="handleSlider(this)"></span>
+                        <span id="btn2" class="bg-blue transition rounded" onclick="handleSlider(this)"></span>
+                        <span id="btn3" class="bg-blue transition rounded" onclick="handleSlider(this)"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+
+        <!-- Start of Footer Part -->
+        <footer class="bg-img">
+            <div>
+                <div class="container flex flex-column p-0">
+                    <div id="info" class="flex">
+                        <div id="about px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> about us </h4>
+                            <p class="para text-white">
+                                Host Cloud is provided by TemplateMo for free of charge. Anyone can download and use this CSS 
+                                Bootstrap template for commercial purposes.
+                            </p>
+                        </div>
+
+                        <div id="plans" class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> hosting plans </h4>
+                            <ul class="list">
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> basic cloud 5x </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> cloud <span class="text-uppercased"> vps </span> 10x </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> advanced cloud </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> custom designs </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> special solutions </a></li>
+                            </ul>
+                        </div>
+
+                        <div id="links" class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> useful links </h4>
+                            <ul class="list">
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> cloud hosting platform </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> light speed zone </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> content delivery network </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> customer support </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> latest news </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> more information </h4>
+                            <ul class="list">
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> phone: </span>
+                                    <a href="tel:+010 020 0560" class="link para text-white transition fw-300"> 010-020-0560 </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> email: </span>
+                                    <a href="mailto: mail@company.com" class="link para text-white transition fw-300"> mail@company.com </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> support: </span>
+                                    <a href="mailto: support@company.com" class="link para text-white transition fw-300"> support@company.com </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> website: </span>
+                                    <a href="wwww.company.com" class="link para text-white transition fw-300"> www.company.com </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="copy">
+                        <p class="text-white fs-14">
+                            Copyright &copy; 2020 Cloud Hosting Company - Designed by Elshan Hasanov
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing script -->
+        <script src="../main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Importing stylesheets -->
+        <link rel="stylesheet" href="../css/utils.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Linking tab-logo -->
+        <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+        <title> Cloud Hosting </title>
+    </head>
+
+    <body>
+        <!-- Start of Header Part -->
+        <header class="bg-transparent transition shadow">
+            <div class="container flex space-between">
+                <div id="logo">
+                    <a href="#" class="link text-uppercased text-white fw-700 flex">
+                        <img src="../images/icon.png" alt="logo image">
+                        <span class="transition"> host </span>
+                    </a>
+                </div>
+
+                <div id="menu-btn" class="bg-white" onclick="handleNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div id="top-nav" class="flex h-0 transition"> 
+                    <ul class="list flex">
+                        <li><a href="home.html" class="link text-capitalized text-white fs-15 transition fw-300"> home </a></li>
+                        <li><a href="about.html" class="link text-capitalized text-white fs-15 transition fw-300"> about us </a></li>
+                        <li><a href="#" id="active-page" class="link text-capitalized text-white fs-15 transition fw-300"> our services </a></li>
+                        <li><a href="contact.html" class="link text-capitalized text-white fs-15 transition fw-300"> contact us </a></li>
+                    </ul>
+
+                    <div class="flex">
+                        <a href="#" class="link btn navbar-btn text-uppercased text-white bg-transparent transition fw-400 letter-sp"> log in </a>
+                        <a href="#" class="link btn navbar-btn text-uppercased text-white bg-blue transition fw-400 letter-sp"> sign up </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+        
+
+        <!-- Start of Main Part -->
+        <main>
+            <section id="introduction" class="bg-img">
+                <div class="container flex flex-column">
+                    <h2 class="text-white text-capitalized fs-32 fw-700"> our services </h1>
+                </div>
+            </section>
+
+            <section id="service-section">
+                <div class="container p-0">
+                    <div class="content px-15">
+                        <h4 class="sm-title"> hosting services </h4>
+                        <h2 class="lg-title text-capitalized"> best services we provide </h2>
+                        <p class="para">
+                            Aenean molestie, odio quis viverra ultricies, leo tellus lacinia neque, sit amet maximus tortor nunc aliquet felis. Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare, suscipit lobortis augue volutpat.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-cloud text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"><span class="text-uppercased"> vps </span> cloud </h5>
+
+                                <p class="para centered">
+                                    Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec 
+                                    tellus ac velit elementum tempor. Pellentesque nec urna ipsum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-server text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> fast network </h5>
+
+                                <p class="para centered">
+                                    Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean 
+                                    sodales justo vitae ex pharetra, vitae tincidunt dolor condimentum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-database text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> reliable platform </h5>
+
+                                <p class="para centered">
+                                    Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac 
+                                    velit elementum tempor. Pellentesque nec urna ipsum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-floppy-disk text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> managed <span class="text-uppercased"></span> cdn </h5>
+
+                                <p class="para centered">
+                                    Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex pharetra, vitae tincidunt dolor condimentum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-check text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> optimal hosting </h5>
+
+                                <p class="para centered">
+                                    Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-life-ring text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> customer support </h5>
+
+                                <p class="para centered">
+                                    Cras placerat mauris scelerisque, placerat enim sed, imperdiet diam. Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="feedbacks" class="bg-gray">
+                <div class="container flex flex-column">
+                    <h4 class="sm-title"> testimonials </h4>
+                    <h2 class="lg-title"> What they say about us </h2>
+
+                    <div>
+                        <div id="carousel" class="flex transition">
+                            <div id="left" class="feedback "></div>
+    
+                            <div id="middle" class="feedback">
+                                <div class="flex flex-column px-15">
+                                    <div class="quote-icon bg-gradient rounded flex">
+                                        <i class="fa-solid fa-quote-right text-white fs-18"></i>
+                                    </div>
+        
+                                    <p class="feedback-text fs-19 text-gray fw-300 centered">
+                                        "Ut elementum a elit sed tristique. Pellentesque sed semper erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quam erat, rutrum ut malesuada."
+                                    </p>
+        
+                                    <h6 class="username text-capitalized fs-19 text-darkGray fw-700 letter-sp"> william smith </h6>
+                                    <h6 class="role sm-title fw-400"> new co-founder </h6>
+                                </div>
+                            </div>
+    
+                            <div id="right" class="feedback"></div>
+                        </div>
+                    </div>
+
+                    <div id="buttons">
+                        <span id="btn1" class="bg-blue transition rounded active-btn" onclick="handleSlider(this)"></span>
+                        <span id="btn2" class="bg-blue transition rounded" onclick="handleSlider(this)"></span>
+                        <span id="btn3" class="bg-blue transition rounded" onclick="handleSlider(this)"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+
+        <!-- Start of Footer Part -->
+        <footer class="bg-img">
+            <div>
+                <div class="container flex flex-column p-0">
+                    <div id="info" class="flex">
+                        <div id="about px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> about us </h4>
+                            <p class="para text-white">
+                                Host Cloud is provided by TemplateMo for free of charge. Anyone can download and use this CSS 
+                                Bootstrap template for commercial purposes.
+                            </p>
+                        </div>
+
+                        <div id="plans" class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> hosting plans </h4>
+                            <ul class="list">
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> basic cloud 5x </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> cloud <span class="text-uppercased"> vps </span> 10x </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> advanced cloud </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> custom designs </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> special solutions </a></li>
+                            </ul>
+                        </div>
+
+                        <div id="links" class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> useful links </h4>
+                            <ul class="list">
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> cloud hosting platform </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> light speed zone </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> content delivery network </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> customer support </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> latest news </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> more information </h4>
+                            <ul class="list">
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> phone: </span>
+                                    <a href="tel:+010 020 0560" class="link para text-white transition fw-300"> 010-020-0560 </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> email: </span>
+                                    <a href="mailto: mail@company.com" class="link para text-white transition fw-300"> mail@company.com </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> support: </span>
+                                    <a href="mailto: support@company.com" class="link para text-white transition fw-300"> support@company.com </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> website: </span>
+                                    <a href="wwww.company.com" class="link para text-white transition fw-300"> www.company.com </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="copy">
+                        <p class="text-white fs-14">
+                            Copyright &copy; 2020 Cloud Hosting Company - Designed by Elshan Hasanov
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing script -->
+        <script src="../main.js"></script>
+    </body>
+</html>

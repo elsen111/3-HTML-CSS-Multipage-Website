@@ -1,0 +1,351 @@
+/* Importing "Roboto, sans serif" font family */
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Importing Font-awesome library */
+@import 
+url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+
+
+
+
+
+
+
+
+
+/* Resetting default CSS values */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html { font-size: 10px }
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    position: relative; 
+}
+
+
+
+
+
+
+
+
+
+
+/* Helper classes */
+/* Active links */
+#top-nav  .list  #active-page, .active-tab { color: #00bcd4 !important }
+
+.active-btn { opacity: 1 !important }
+
+
+
+
+
+/* Backgrounds */
+.bg-gray { background-color: #f7f7f7 }
+
+.bg-blue {
+    background-color: rgb(1, 163, 185, 0.8);
+    border-color: rgb(1, 163, 185, 0.8) !important;
+}
+
+.bg-blue.btn:hover {
+    background-color: rgb(1, 163, 185, .6);
+    border-color: rgb(1, 163, 185, .6) !important;
+}
+
+.bg-white { background-color: #fff }
+
+.bg-gradient {
+    background: rgb(110,107,167);
+    background: linear-gradient(90deg, rgba(110,107,167,1) 0%, rgba(68,106,198,1) 39%, rgba(0,0,0,1) 100%, rgba(168,171,248,1) 100%);
+}
+
+.bg-gradient.btn:hover {
+    background: rgb(110,107,167);
+    background: linear-gradient(90deg, rgba(110,107,167,1) 0%, rgba(68,180,198,1) 39%, rgba(0,0,0,1) 100%, rgba(168,171,248,1) 100%);
+}
+
+.bg-transparent { background-color: transparent }
+
+.bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* Border colors */
+.border-white { border-color: #fff }
+
+.border-gray { border-color: #ddd }
+
+
+
+
+
+/* Border radius */
+.br-5 { border-radius: .5rem }
+
+.rounded { border-radius: 50% }
+
+
+
+
+
+/* Border sizes */
+.border-8 { border-width: .08rem }
+
+
+
+
+
+/* Box shadow */
+.shadow { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px }
+
+
+
+
+
+/* Buttons */
+.btn {
+    text-transform: uppercase;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar-btn {
+    border: .16rem  solid  #fff;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+
+
+
+
+
+/* Containers */
+.container { 
+    height: 100%;
+    width: 114rem;
+    margin: 0  auto;
+    padding: 0  1.5rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col-2 {
+    width: calc(100% / 2);
+    min-width: calc(100% / 2);
+}
+
+.col-2 > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3 {
+    width: calc(100% / 3);
+    min-width: calc(100% / 3);
+}
+
+.col-3 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem  4rem;
+}
+
+
+
+
+
+/* Flex containers */
+.flex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column { flex-direction: column; }
+
+.f-wrap { flex-wrap: wrap }
+
+.space-between { justify-content: space-between }
+
+
+
+
+
+/* Font colors */
+.text-blue { color: #00bcd4 }
+
+.text-darkGray { color: #1e1e1e }
+
+.text-gray { color: #6a6a6a }
+
+.text-white { color: #fff !important }
+
+
+
+
+
+/* Font sizes */
+.fs-14 { font-size: 1.4rem !important }
+
+.fs-15 { font-size: 1.5rem }
+
+.fs-17 { font-size: 1.7rem }
+
+.fs-18 { font-size: 1.8rem }
+
+.fs-19 { font-size: 1.9rem }
+
+.fs-32 { font-size: 3.2rem }
+
+
+
+
+
+/* Font weights */
+.fw-300 { font-weight: 300 }
+
+.fw-400 { font-weight: 400 !important }
+
+.fw-500 { font-weight: 500 }
+
+.fw-600 { font-weight: 600 }
+
+.fw-900 { font-weight: 900 }
+
+
+
+
+
+/* Height */
+.h-0 { height: 0 !important }
+
+
+
+
+
+/* Hidden elements */
+.d-none { display: none }
+
+
+
+
+
+/* Letter spacing */
+.letter-sp { letter-spacing: .05rem }
+
+
+
+
+
+/* Links */
+.link { text-decoration: none; }
+
+
+
+
+
+/* Lists */
+.list { list-style: none; }
+
+
+
+
+
+/* Margins */
+.mb-30 { margin-bottom: 3rem }
+
+.mb-50 { margin-bottom: 5rem }
+
+
+
+
+
+/* Paddings */
+.p-0 { padding: 0 }
+
+.p-20 { padding: 2rem }
+
+.p-30 { padding: 3rem }
+
+.px-15 { padding: 0  1.5rem }
+
+.px-20 { padding: 0  2rem }
+
+
+
+
+
+/* Paragraphs */
+.para {
+    color: #6a6a6a;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+/* Text alignment */
+.centered { text-align: center }
+
+
+
+
+
+/* Text transforms */
+.text-capitalized { text-transform: capitalize }
+
+.text-uppercased { text-transform: uppercase }
+
+
+
+
+
+/* Titles */
+.lg-title {
+    color: #1e1e1e;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    line-height: 3.84rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.sm-title {
+    color: #00bcd4;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* Transition */
+.transition { transition: all  .6s }

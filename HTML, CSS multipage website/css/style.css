@@ -1,0 +1,800 @@
+/* Home Page */
+/* Start of Header Part */
+header {
+    border-bottom: .1rem  solid  rgba(255, 255, 255, 0.30);
+    height: 8rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#logo  img {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+#logo  span { font-size: 2.4rem }
+
+#menu-btn { display: none }
+
+#top-nav ul li { margin: 0  1.5rem }
+
+#top-nav ul li a { padding: .8rem }
+
+#top-nav ul li a:hover { color: #00bcd4 !important }
+
+#top-nav > .flex:last-child { margin-left: 5.5rem }
+
+#top-nav  .navbar-btn {
+    font-size: 1.3rem;
+    line-height: 1.95rem;
+    margin-left: 1.5rem;
+}
+
+.navbar-btn.bg-transparent:hover {
+    background-color: #fff;
+    color: #00bcd4 !important;
+}
+
+
+
+.white-header { background-color: #fff !important }
+
+.white-header  #logo  span { color: #00bcd4 }
+
+.white-header ul li a { color: #1e1e1e !important }
+
+.white-header  .bg-transparent {
+    border-color: #00bcd4;
+    color: #00bcd4 !important;
+}
+
+.white-header  .bg-transparent:hover {
+    background-color: #00bcd4;
+    color: #fff !important;
+}
+/* End of Header Part */
+
+
+
+
+
+
+
+
+
+
+/* Start of Main Part */
+/* Introduction section */
+#intro {
+    background-image: url('../images/head-bg.jpg');
+    height: 80rem;
+}
+
+#intro  h1 { margin-bottom: 5rem }
+
+#intro  h1 + div { width: 100% }
+
+#intro  h1 + div > * { height: 4.9rem }
+
+#intro  input[type='text'] {
+    border: .08rem  solid  #fff;
+    line-height: 2.1rem;
+    outline: none;
+    padding: 0  1.5rem;
+    width: 50%;
+}
+
+#intro  input[type='text']::placeholder { color: #fff }
+
+#intro  button {
+    border: none;
+    cursor: pointer;
+    margin-left: 2rem;
+    outline: none;
+}
+
+#check-container > div:not(:last-child) { margin-right: 3rem }
+
+input[type='checkbox'] {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+
+
+
+
+/* Customer section */
+#customer { padding: 5rem  0  4rem  0 }
+
+#customer  img { margin: 0  4.9rem }
+
+
+
+
+
+/* Services section */
+#services { margin-top: 14rem }
+
+#services  .services-content { margin-bottom: 8rem }
+
+#services  .icon {
+    height: 10rem;
+    width: 10rem;
+}
+
+#services  .row  h5 {
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+/* Pricing section */
+#pricing {
+    background-image: url('../images/plan-bg.jpg');
+    background-size: 100%  47.2%;
+    background-position: top;
+    margin-top: 14rem;
+}
+
+#pricing  .pricing-content {
+    padding: 8rem  0;
+    width: 66.66%;
+}
+
+#pricing  .col-3 > div {
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+#pricing  h4 { margin-bottom: 4.5rem }
+
+#pricing  .price {
+    margin-bottom: 3.5rem;
+    padding: 3rem  0;
+    width: 100%;
+}
+
+#pricing  .price > .fs-14 { margin-top: .5rem }
+
+#pricing  ul {
+    border-top: .1rem  solid  #eee;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+#pricing  ul > li { margin-bottom: 2rem }
+
+#pricing  ul  .fa-check {
+    color: #491bb1;
+    margin-right: .8rem;
+}
+
+#pricing  a.btn {
+    bottom: -3.5%;
+    height: 5rem;
+    padding: 0  2.5rem;
+    position: absolute;
+}
+
+
+
+
+
+/* Features section */
+#features { margin-top: 16rem }
+
+#features  .lg-title { margin-bottom: 8rem }
+
+#features  .col-2 > div { padding: 3rem }
+
+#features  img { margin-right: 3rem }
+
+#features  .feature-content > h4 { margin-bottom: .8rem }
+
+
+
+
+
+/* Feedbacks section */
+#feedbacks {
+    margin-top: 14rem;
+    padding: 10rem  0;
+}
+
+#feedbacks  h2 + div {
+    overflow: hidden;
+    width: 83.33%;
+}
+
+#carousel {
+    margin: 8rem  0  5rem  0;
+    width: 300%;
+    position: relative;
+    left: -100%;
+}
+
+#carousel > .feedback {
+    width: calc(100% / 3);
+    position: relative;
+    margin: 0  auto;
+}
+
+.feedback  .quote-icon {
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 4.5rem;
+}
+
+.feedback  .feedback-text {
+    font-style: italic;
+    line-height: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.feedback  .role {
+    font-weight: 400 !important;
+    margin-top: .8rem;
+}
+
+#feedbacks  #buttons > span {
+    cursor: pointer;
+    display: inline-block;
+    height: .8rem;
+    width: .8rem;
+    margin: 0  .4rem;
+    opacity: .5;
+}
+/* End of Main Part */
+
+
+
+
+
+
+
+
+
+
+/* Start of Footer Part */
+footer {
+    background-image: url('../images/footer-bg.jpg');
+    padding: 8rem  0  6rem  0;
+}
+
+footer  #info {
+    align-items: flex-start;
+    border-bottom: 0.08rem  solid rgba(250, 250, 250, 0.3);
+    margin-bottom: 6rem;
+    padding-bottom: 8rem;
+    width: 100%;
+}
+
+#info > div { width: 24.5% }
+
+#info  ul  li { margin-bottom: 1rem }
+
+#info  a:hover { opacity: .6 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page */
+/* Introduction section */
+#introduction {
+    background-image: url('../images/heading-bg.jpg');
+    height: 50.7rem;
+}
+
+#introduction  h2 { font-size: 4.4rem }
+
+
+
+
+
+/* Background section */
+#background { padding: 14rem  0 }
+
+#background  img { width: 51rem }
+
+#background  .row.flex { align-items: flex-start }
+
+#background  .col-2:first-child { justify-content: flex-start }
+
+#background  .col-2:last-child { align-self: flex-start }
+
+#background  .col-2:last-child > * { margin-left: 3rem }
+
+#background  .col-2:last-child > h2 + p {
+    border-bottom: .3rem  solid  #eee;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+}
+
+#background  #tabs  h5 {
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+#tabs  .titles {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
+
+
+
+/* Team section */
+#team { margin-top: 14rem }
+
+#team  .centered.px-15 {
+    margin-bottom: 8rem;
+    width: 66.66%;
+}
+
+#team  .row  .p-0 { padding: 0 }
+
+#team  img { width: 100% }
+
+#team  .row  .sm-title { margin-top: .8rem }
+
+#team  .row  .col-3 > div { cursor: pointer }
+
+#team  .row  .col-3 > div:hover  img { opacity: .8 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Services Page */
+/* Service section */
+#service-section { margin-top: 14rem }
+
+#service-section .content { margin-bottom: 8rem }
+
+#service-section  .icon {
+    height: 10rem;
+    width: 10rem;
+}
+
+#service-section  h5 { margin: 3.5rem  0  3rem  0 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact page */
+/* Contact section */
+#contact-section { margin-top: 14rem }
+
+#contact-form > form > * {
+    border-style: solid;
+    height: 4.6rem;
+    outline: none;
+    margin-right: 1.5rem;
+    width: 94.45%;
+    align-self: flex-start;
+}
+
+#contact-form > form > *::placeholder {
+    color: #6a6a6a;
+    font-weight: 400 !important;
+}
+
+#contact-form > form > textarea {
+    font-family: 'Roboto', sans-serif;
+    height: 15rem;
+    resize: none;
+}
+
+#contact-form > form > button {
+    cursor: pointer;
+    height: 5rem;
+    width: auto;
+}
+
+#contact-content > div {
+    margin-left: 3rem;
+    align-items: flex-start;
+}
+
+#contact-content  .para {
+    border-bottom: .3rem  solid  #eee;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+}
+
+#contact-links > .flex { justify-content: flex-start }
+
+#contact-links  .icon {
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1.5rem;
+}
+
+#map { margin-top: 14rem }
+
+#map  iframe {
+    height: 55rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+/* Large screen devices */
+@media only screen and (max-width: 1200px) {
+    .container { width: 96rem }
+
+
+
+    #customer  img { margin: 0  2.7rem }
+
+
+
+    #pricing  .col-3 > div { height: 79rem }
+
+
+
+    #features  .feature-content  .para { font-size: 1.4rem }
+
+
+
+    .feedback  .feedback-text { width: 90.2% }
+
+
+
+
+
+    #background  img { width: 100% }
+
+
+
+
+
+    #contact-content > div { margin-left: 0 }
+
+    #contact-links  .icon {
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-right: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Medium screen devices */
+@media only screen and (max-width: 992px) {
+    .container { width: 72rem }
+
+
+
+    #menu-btn {
+        color: #00bcd4;
+        cursor: pointer;
+        display: block;
+        font-size: 2rem;
+        padding: .4rem  1.2rem;
+    }
+
+    #top-nav {
+        background: #fff;
+        top: 100%;
+        left: 0;
+        height: 31.15rem;
+        flex-direction: column;
+        width: 100vw;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    #top-nav  .list {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #top-nav  .list  li {
+        border-bottom: .1rem  solid  #eee;
+        margin-top: .5rem;
+        padding: 1.5rem  0;
+        text-align: center;
+        width: 100%;
+    }
+
+    #top-nav  .list  .link { color: #1e1e1e !important }
+
+    #top-nav > .flex:last-child { margin-left: 0 }
+
+    #top-nav  .list + div { margin: 3rem  0 }
+
+    #top-nav  .navbar-btn.bg-transparent {
+        border-color: #00bcd4;
+        color: #00bcd4 !important;
+    }
+
+
+
+    #intro  h1 + div { flex-direction: column }
+
+    #intro  h1 + div, #check-container { width: 62.5% }
+
+    #intro  input[type='text'] {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    #check-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #check-container > div {
+        width: 27%;
+        min-width: 27%;
+    }
+
+    #check-container > div:not(:last-child) { margin-right: 1rem }
+
+    #check-container > div:last-child { margin: 2.3rem  auto  0  auto }
+
+
+
+    #customer  img:last-child { display: none }
+
+
+
+    #services  .para.centered { font-size: 1.4rem }
+
+
+
+    #pricing  .col-3 > div { height: auto }
+
+    .price + .para.centered { font-size: 1.4rem }
+
+
+
+    #contact-links  .icon { display: none }
+}
+
+
+
+
+
+
+
+
+
+
+/* Small screen devices */
+@media only screen and (max-width: 768px) {
+    .container { width: 54rem }
+
+    .row { flex-direction: column }
+
+    .col-2, .col-3 { width: 100% }
+
+
+
+    #intro  .container > * { width: 100% }
+
+
+
+    #check-container > div {
+        width: 23%;
+        min-width: 23%;
+        margin-right: 0 !important;
+    }
+
+    #check-container > div:last-child { margin: 0 }
+
+
+
+    #customer  img {
+        margin: 0;
+        margin-right: 2rem;
+    }
+
+
+
+    #pricing  .col-3 > div { margin-bottom: 5.5rem }
+
+    #pricing  .pricing-content { width: 100% }
+
+    #pricing  .row  .col-3.px-15 { padding: 0; }
+
+
+
+    #features  .shadow.flex { align-items: flex-start }
+
+
+
+    #carousel  .feedback { padding: 0  1.5rem !important }
+
+
+
+    #info { flex-wrap: wrap }
+
+    #info > div {
+        width: 50%;
+        min-width: 50%;
+        margin-bottom: 6rem;
+        padding: 0  1.5rem;
+    }
+
+    #info > div:nth-child(3) { margin-bottom: 6rem !important }
+
+    #info  p, #info  .link, #info  span { font-size: 1.4rem }
+
+    #info  .list > li > * { line-height: 2.1rem }
+
+    #contact-links  .icon { display: none }
+
+
+
+    footer  #copy { text-align: center }
+
+
+
+    #tabs  .titles {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #tabs  .titles > h5 { margin-bottom: .5rem }
+
+
+
+    #contact-form { margin-bottom: 4.5rem }
+
+    #contact-form  input, textarea {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-links  .icon {
+        display: flex !important;
+        margin-right: 1.5rem;
+    }
+
+
+
+    #feedbacks { margin-top: 10rem }
+
+
+
+    footer  #copy { padding: 0  1.5rem }
+}
+
+
+
+
+
+
+
+
+
+
+/* Small screen devices */
+@media only screen and (max-width: 576px) {
+    .container { width: 100% }
+
+
+
+    #check-container { flex-wrap: wrap }
+
+    #check-container > div, #check-container > div:last-child {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 2.3rem;
+    }
+
+
+
+    #customer  .flex.space-between { flex-direction: column }
+
+    #customer  img { margin: 1.5rem  0 }
+
+
+
+    #pricing  .col-3 > div { margin-bottom: 5.5rem }
+
+
+
+    #carousel  .feedback, .feedback  .feedback-text { width: 100% }
+
+    #carousel  .feedback { padding: 0  2.5rem }
+
+
+
+    #info > div {
+        width: 100%;
+        min-width: auto;
+        margin-bottom: 6rem;
+        padding: 0  1.5rem;
+    }
+
+    #info > div:nth-child(3), #info > div:nth-child(4) { margin-bottom: 0 }
+
+    #info  p, #info  .link, #info  span { font-size: 1.4rem }
+
+    #info  .list > li > * { line-height: 2.1rem }
+
+    #contact-links  .icon { display: none }
+
+
+
+    #background  h4.sm-title { margin-top: 3.3rem }
+
+    #background  .col-2:last-child > * { margin-left: 0 }
+
+
+
+    #contact-form { margin-bottom: 4.5rem }
+
+    #contact-form  input, textarea { width: 100% }
+
+    #contact-links  .icon {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+
+
+
+    #feedbacks { margin-top: 10rem }
+}

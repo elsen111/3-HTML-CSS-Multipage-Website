@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Importing stylesheets -->
+        <link rel="stylesheet" href="../css/utils.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Linking tab-logo -->
+        <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+        <title> Cloud Hosting </title>
+    </head>
+
+    <body>
+        <!-- Start of Header Part -->
+        <header class="bg-transparent transition shadow">
+            <div class="container flex space-between">
+                <div id="logo">
+                    <a href="#" class="link text-uppercased text-white fw-700 flex">
+                        <img src="../images/icon.png" alt="logo image">
+                        <span class="transition"> host </span>
+                    </a>
+                </div>
+
+                <div id="menu-btn" class="bg-white" onclick="handleNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div id="top-nav" class="flex h-0 transition"> 
+                    <ul class="list flex">
+                        <li><a href="#" id="active-page" class="link text-capitalized text-white fs-15 transition fw-300"> home </a></li>
+                        <li><a href="about.html" class="link text-capitalized text-white fs-15 transition fw-300"> about us </a></li>
+                        <li><a href="service.html" class="link text-capitalized text-white fs-15 transition fw-300"> our services </a></li>
+                        <li><a href="contact.html" class="link text-capitalized text-white fs-15 transition fw-300"> contact us </a></li>
+                    </ul>
+
+                    <div class="flex">
+                        <a href="#" class="link btn navbar-btn text-uppercased text-white bg-transparent transition fw-400 letter-sp"> log in </a>
+                        <a href="#" class="link btn navbar-btn text-uppercased text-white bg-blue transition fw-400 letter-sp"> sign up </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+        
+
+        <!-- Start of Main Part -->
+        <main>
+            <section id="intro" class="bg-img">
+                <div class="container flex flex-column">
+                    <h1 class="text-white text-uppercased fs-32 fw-700"> search your domain </h1>
+                    
+                    <div class="flex mb-30">
+                        <input type="text" name="domain-name" id="domain-name" placeholder="Enter your domain here..." class="fw-400 bg-transparent border-white fs-14 text-white">
+                        <button type="submit" class="btn bg-blue text-uppercased text-white fw-500 fs-15 transition letter-sp"> search now </button>
+                    </div>
+
+                    <div id="check-container" class="flex">
+                        <div>
+                            <input type="checkbox" name=".com" id="com">
+                            <label for="com" class="fs-15 text-white"><span class="fw-700"> .com</span>($10/yr) </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name=".com" id="com">
+                            <label for="com" class="fs-15 text-white"><span class="fw-700"> .net</span>($12/yr) </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name=".com" id="com">
+                            <label for="com" class="fs-15 text-white"><span class="fw-700"> .org</span>($8/yr) </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name=".com" id="com">
+                            <label for="com" class="fs-15 text-white"><span class="fw-700"> .in</span>($6/yr) </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="customer" class="bg-gray">
+                <div class="container">
+                    <h4 class="text-darkGray text-uppercased fs-17 fw-600 centered mb-50"> trusted by 1,250+ happy customers worldwide </h4>
+                    <div class="flex space-between">
+                        <img src="../images/customer1.png" alt="customer logo">
+                        <img src="../images/customer2.png" alt="customer logo">
+                        <img src="../images/customer3.png" alt="customer logo">
+                        <img src="../images/customer3.png" alt="customer logo">
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="container p-0">
+                    <div class="services-content px-15">
+                        <h4 class="sm-title"> hosting services </h4>
+                        <h2 class="lg-title"> Services we provide </h2>
+                        <p class="para">
+                            Host Cloud is a professional Bootstrap 4 template by TemplateMo for 
+                            your hosting company websites. There are 4 HTML pages included in this template. You can feel free to customize anything. Please share this template to your friends. Thank you.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-database text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> 10x light cloud </h5>
+
+                                <p class="para centered">
+                                    Aenean sit amet leo vitae tellus vehicula tincidunt vel sed lorem. 
+                                    Nullam tincidunt commodo magna, id aliquam sapien sollicitudin id.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-database text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> managed <span class="text-uppercased"> vps </span> cloud </h5>
+
+                                <p class="para centered">
+                                    You are not allowed to re-distribute this template as a downloadable ZIP file on any template collection website. Please
+                                    <a href="#" class="link text-blue"> contact us </a> if you want to.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15 mb-30">
+                            <div class="br-5 bg-gray">
+                                <div class="icon rounded bg-blue flex">
+                                    <i class="fa-solid fa-database text-white fs-32"></i>
+                                </div>
+
+                                <h5 class="centered fs-19 text-capitalized text-darkGray fw-500"> fully dedicated </h5>
+
+                                <p class="para centered">
+                                    Aenean sit amet leo vitae tellus vehicula tincidunt vel sed lorem. Nullam tincidunt 
+                                    commodo magna, id aliquam sapien sollicitudin id.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pricing" class="bg-img">
+                <div class="container flex flex-column">
+                    <div class="pricing-content flex flex-column px-15">
+                        <h2 class="lg-title text-capitalized text-white"> cloud hosting plans </h2>
+                        <p class="para text-white centered">
+                            Lorem ipsum dolor amet taxidermy sriracha cardigan salvia actually vice migas enamel pin sustainable carry 
+                            scenester lomo hot chicken farm table actually kinfolk.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3 px-15">
+                            <div class="bg-white flex flex-column shadow">
+                                <h4 class="fs-17 text-uppercased text-darkGray letter-sp"> basic cloud 5x </h4>
+
+                                <div class="price bg-blue text-white flex flex-column">
+                                    <span class="fs-32 fw-900"> $15.50 </span>
+                                    <span class="text-uppercased fs-14 fw-700"> monthly </span>
+                                </div>
+
+                                <p class="para centered">
+                                    Etiam sit amet placerat lacus, sed placerat mauris. 
+                                    Vestibulum malesuada vehicula sapien non tempus.
+                                </p>
+
+                                <ul class="list">
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 500 <span class="text-uppercased"> gb </span> storage space </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 3 <span class="text-uppercased"> tb </span> data transfer </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> basic managed panel </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 24/7 fast support </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 100 premium themes </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> cancel <span style="text-transform: none;"> or </span> upgrade anytime </span>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="link btn bg-blue text-white fs-15 fw-500 letter-sp flex transition"> start plan </a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15">
+                            <div class="bg-white flex flex-column shadow">
+                                <h4 class="fs-17 text-uppercased text-darkGray letter-sp"> cloud vps 10x </h4>
+
+                                <div class="price bg-gradient text-white flex flex-column">
+                                    <span class="fs-32 fw-900"> $30.00 </span>
+                                    <span class="text-uppercased fs-14 fw-700"> monthly </span>
+                                </div>
+
+                                <p class="para centered">
+                                    Etiam sit amet placerat lacus, sed placerat mauris. 
+                                    Vestibulum malesuada vehicula sapien non tempus.
+                                </p>
+
+                                <ul class="list">
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 1 <span class="text-uppercased"> tb </span> cloud space </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 8 <span class="text-uppercased"> tb </span> data transfer </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> fully managed panel </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"><span style="text-transform: none;"> 15-minute </span> quick support </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> unlimited web addons </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> cancel <span style="text-transform: none;"> or </span> upgrade anytime </span>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="link btn bg-gradient text-white fs-15 fw-500 letter-sp flex transition"> start plan </a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 px-15">
+                            <div class="bg-white flex flex-column shadow">
+                                <h4 class="fs-17 text-uppercased text-darkGray letter-sp"> advanced cloud </h4>
+
+                                <div class="price bg-blue text-white flex flex-column">
+                                    <span class="fs-32 fw-900"> $72.25 </span>
+                                    <span class="text-uppercased fs-14 fw-700"> monthly </span>
+                                </div>
+
+                                <p class="para centered">
+                                    Etiam sit amet placerat lacus, sed placerat mauris. 
+                                    Vestibulum malesuada vehicula sapien non tempus.
+                                </p>
+
+                                <ul class="list">
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 4 <span class="text-uppercased"> tb </span> cloud space </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> 20 <span class="text-uppercased"> tb </span> data transfer </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> fully managed panel </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"><span style="text-transform: none;"> 15-minute </span> quick support </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> top notch web apps </span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check fs-14"></i>
+                                        <span class="para fs-16 text-capitalized"> cancel  upgrade anytime </span>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="link btn bg-blue text-white fs-15 fw-500 letter-sp flex transition"> start plan </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features">
+                <div class="container flex flex-column p-0">
+                    <h4 class="sm-title"> best quality for you </h4>
+                    <h2 class="lg-title text-capitalized"> cloud features </h2>
+
+                    <div class="row">
+                        <div class="col-2 px-15 mb-30">
+                            <div class="shadow flex">
+                                <div>
+                                    <img src="../images/feature1.png" alt="feature image">
+                                </div>
+
+                                <div class="feature-content">
+                                    <h4 class="fs-18 text-darkGray text-capitalized letter-sp fw-700"> load balanced </h4>
+                                    <p class="para">
+                                        Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. 
+                                        Vivamus nec metus mauris. Praesent lacinia tempus urna.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 px-15 mb-30">
+                            <div class="shadow flex">
+                                <div>
+                                    <img src="../images/feature2.png" alt="feature image">
+                                </div>
+
+                                <div class="feature-content">
+                                    <h4 class="fs-18 text-darkGray text-capitalized letter-sp fw-700"> 99.9% uptime guaranteed </h4>
+                                    <p class="para">
+                                        Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 px-15 mb-30">
+                            <div class="shadow flex">
+                                <div>
+                                    <img src="../images/feature3.png" alt="feature image">
+                                </div>
+
+                                <div class="feature-content">
+                                    <h4 class="fs-18 text-darkGray text-capitalized letter-sp fw-700"> top reliability </h4>
+                                    <p class="para">
+                                        Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 px-15 mb-30">
+                            <div class="shadow flex">
+                                <div>
+                                    <img src="../images/feature4.png" alt="feature image">
+                                </div>
+
+                                <div class="feature-content">
+                                    <h4 class="fs-18 text-darkGray text-capitalized letter-sp fw-700"> high security </h4>
+                                    <p class="para">
+                                        Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 px-15 mb-30">
+                            <div class="shadow flex">
+                                <div>
+                                    <img src="../images/feature5.png" alt="feature image">
+                                </div>
+
+                                <div class="feature-content">
+                                    <h4 class="fs-18 text-darkGray text-capitalized letter-sp fw-700"> quality hardwares </h4>
+                                    <p class="para">
+                                        Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 px-15 mb-30">
+                            <div class="shadow flex">
+                                <div>
+                                    <img src="../images/feature6.png" alt="feature image">
+                                </div>
+
+                                <div class="feature-content">
+                                    <h4 class="fs-18 text-darkGray text-capitalized letter-sp fw-700"> network solutions </h4>
+                                    <p class="para">
+                                        Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="feedbacks" class="bg-gray">
+                <div class="container flex flex-column">
+                    <h4 class="sm-title"> testimonials </h4>
+                    <h2 class="lg-title"> What they say about us </h2>
+
+                    <div>
+                        <div id="carousel" class="flex transition">
+                            <div id="left" class="feedback "></div>
+    
+                            <div id="middle" class="feedback">
+                                <div class="flex flex-column px-15">
+                                    <div class="quote-icon bg-gradient rounded flex">
+                                        <i class="fa-solid fa-quote-right text-white fs-18"></i>
+                                    </div>
+        
+                                    <p class="feedback-text fs-19 text-gray fw-300 centered">
+                                        "Ut elementum a elit sed tristique. Pellentesque sed semper erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quam erat, rutrum ut malesuada."
+                                    </p>
+        
+                                    <h6 class="username text-capitalized fs-19 text-darkGray fw-700 letter-sp"> william smith </h6>
+                                    <h6 class="role sm-title fw-400"> new co-founder </h6>
+                                </div>
+                            </div>
+    
+                            <div id="right" class="feedback"></div>
+                        </div>
+                    </div>
+
+                    <div id="buttons">
+                        <span id="btn1" class="bg-blue transition rounded active-btn" onclick="handleSlider(this)"></span>
+                        <span id="btn2" class="bg-blue transition rounded" onclick="handleSlider(this)"></span>
+                        <span id="btn3" class="bg-blue transition rounded" onclick="handleSlider(this)"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+
+        <!-- Start of Footer Part -->
+        <footer class="bg-img">
+            <div>
+                <div class="container flex flex-column p-0">
+                    <div id="info" class="flex">
+                        <div id="about px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> about us </h4>
+                            <p class="para text-white">
+                                Host Cloud is provided by TemplateMo for free of charge. Anyone can download and use this CSS 
+                                Bootstrap template for commercial purposes.
+                            </p>
+                        </div>
+
+                        <div id="plans" class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> hosting plans </h4>
+                            <ul class="list">
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> basic cloud 5x </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> cloud <span class="text-uppercased"> vps </span> 10x </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> advanced cloud </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> custom designs </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> special solutions </a></li>
+                            </ul>
+                        </div>
+
+                        <div id="links" class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> useful links </h4>
+                            <ul class="list">
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> cloud hosting platform </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> light speed zone </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> content delivery network </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> customer support </a></li>
+                                <li><a href="#" class="link para text-capitalized text-white transition fw-300"> latest news </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="px-15">
+                            <h4 class="text-white text-capitalized fs-19 fw-600 letter-sp mb-30"> more information </h4>
+                            <ul class="list">
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> phone: </span>
+                                    <a href="tel:+010 020 0560" class="link para text-white transition fw-300"> 010-020-0560 </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> email: </span>
+                                    <a href="mailto: mail@company.com" class="link para text-white transition fw-300"> mail@company.com </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> support: </span>
+                                    <a href="mailto: support@company.com" class="link para text-white transition fw-300"> support@company.com </a>
+                                </li>
+
+                                <li>
+                                    <span class="para text-white fw-500 text-capitalized"> website: </span>
+                                    <a href="wwww.company.com" class="link para text-white transition fw-300"> www.company.com </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="copy">
+                        <p class="text-white fs-14">
+                            Copyright &copy; 2020 Cloud Hosting Company - Designed by Elshan Hasanov
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing script -->
+        <script src="../main.js"></script>
+    </body>
+</html>
